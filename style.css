@@ -1,0 +1,134 @@
+/* -----------------------------------------
+   PREMIUM SİYAH & ALTIN EMLAK TASARIMI
+----------------------------------------- */
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+header {
+  background: #000;
+  border-bottom: 2px solid #d4af37;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #d4af37;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+.hero {
+  background: url('../img/antalya1.jpg') center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 40px;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border: 1px solid #d4af37;
+}
+
+.section {
+  padding: 40px;
+}
+
+.section h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+/* İLAN KARTLARI */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #d4af37;
+  padding: 15px;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* FORM */
+form input, form textarea, form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #000;
+  border: 1px solid #d4af37;
+  color: white;
+}
+
+button {
+  background: #d4af37;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+/* SABİT WHATSAPP VE INSTAGRAM ICON */
+.float-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background: #25D366;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.float-ig {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  background: #d62976;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  margin-top: 40px;
+  border-top: 2px solid #d4af37;
+}
